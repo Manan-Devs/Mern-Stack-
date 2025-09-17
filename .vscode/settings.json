@@ -1,0 +1,7 @@
+{
+    "liveServer.settings.port": 5501,
+    "emmet.triggerExpansionOnTab": true,
+    "editor.codeActions.triggerOnFocusChange": true,
+    "workbench.editor.pinnedTabsOnSeparateRow": true,
+    "debug.closeReadonlyTabsOnEnd": true
+}
