@@ -2,7 +2,7 @@
 
 // let a = 10;
 // let b = 345.6821;
-// let c = b.toFixed(2)
+// let c = b.toFixed(2);
 // console.log(b);
 // console.log(c);
 
@@ -76,6 +76,7 @@ console.log(Math.floor(Math.random()*(9999-1000+1)) + 1000);
 
 
  
+
 
 
 
