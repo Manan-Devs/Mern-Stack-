@@ -19,7 +19,7 @@
 // const b = str.toLowerCase();
 // console.log(b); 
 
-const str = `Hello Coder Army Coder`
+const str = `Hello Coder Army Coder`;
 
 
 // console.log(str.indexOf('cod'));
@@ -89,4 +89,5 @@ console.log(dates.toString());
 
 console.log(dates);
 // 1759340204932: TimeStamp
+
 
