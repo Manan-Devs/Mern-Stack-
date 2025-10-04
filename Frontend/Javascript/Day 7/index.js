@@ -31,7 +31,7 @@
 
 //  Starting add kar sakte hu, delete the element at first place 
 
-// arr.unshift(10)
+// arr.unshift(10);
 // arr.unshift(50);
 // console.log(arr);
 
@@ -172,6 +172,7 @@ const a = [10,309,"Rohit" ,9.3,true];
 
 a.name = "Mohan";
 console.log(a);
+
 
 
 
