@@ -1,30 +1,35 @@
 //  Scope & Closures , HDF
-// Global Scope -> Accessible  anywhere inside your code file -> var let const
-// functional Scope -> Accessible   inside any function only -> var let const 
+// Global Scope -> Accessible anywhere inside your code file -> var let const
+// functional Scope -> Accessible inside any function only -> var let const 
 // Block Scope ->Accessible  inside any code block only let const
 
 // let a  = 10;
 // const b = 20;
-// // var e = 90;
+// var e = 990;
 
 // if (true) {
 //     let d = 30;
-//     // var e = 90;
+//     var e = 990;
 //     console.log(d);
 // }
 // console.log(e); 
 
-// // console.log(d);
+// console.log(d);
 
+ 
+// var a = "Manan";
 // function greet() {
+//     var a = "Rohit";
 //     let c = 30;
 //     var e = 90;
 //     console.log(c);
 // }
 
+// console.log(a);
+
 // console.log(e);
 
-// // console.log(c);
+// console.log(c);
 
 // greet()
 
@@ -107,7 +112,7 @@
 
 
 // function createBankAccount() {
-// let balance = 500;
+//   let balance = 500;
 //      // private 
 //        return {
 //      deposit:function(amount) {
