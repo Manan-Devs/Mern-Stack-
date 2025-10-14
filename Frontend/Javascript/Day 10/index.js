@@ -4,7 +4,7 @@
 // Execution Phase
 
 // a = undefined
-// b = undefine 
+// b = undefined
 // addNumber = fnCode
 // sumResult1 = undefined
 // sumResult2 = undefined
