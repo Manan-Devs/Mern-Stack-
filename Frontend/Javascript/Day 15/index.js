@@ -5,7 +5,7 @@
 
 
 
-const element = document.getElementById("first");
+const element = document.getElementById("first")
 
 // element.onclick = function handleClick() {
 // // element.textContent = "Strike is Coming";
@@ -112,3 +112,4 @@ let a = {
 
 a.greet(10);
 a.greet(20);
+
