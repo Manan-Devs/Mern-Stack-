@@ -6,6 +6,7 @@
   <title>Library</title>
   <link rel="stylesheet" href="./styles.css">
   <script src="https://kit.fontawesome.com/2a416cd81e.js" crossorigin="anonymous"></script>
+  <script src="./index.js"></script>
 </head>
 <body>
 
@@ -17,10 +18,32 @@
        <img class="logo" src="./assets/Library.svg" alt="">
           
        <ul class="nav__links">
-           <li><a href="#" class="nav__link">Home</a></li>
-           <li><a href="#" class="nav__link">Contacts</a></li>
-           <li><a href="#" class="nav__link nav__link--primary">Books</a></li>
+           <li><a href="#Home" class="nav__link">Home</a></li>
+           <li><a href="#Contacts" class="nav__link">Contacts</a></li>
+           <li><a href="#Books" class="nav__link nav__link--primary">Books</a></li>
      </ul> 
+            <button class="btn__menu" onclick="openMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+           <div class="menu__backdrop">
+               <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                   <i class="fas fa-times"></i>
+               </button>
+              <ul class="menu__links">
+                <li class="menu__list">
+                  <a href="#" class="menu__link" onclick="closeMenu()">Home</a>
+               </li>
+                <li class="menu__list menu__link">
+                  <a href="#" class="menu__link" onclick="closeMenu()">Books</a>
+               </li>
+                <li class="menu__list">
+                  <a href="#" class="menu__link" onclick="closeMenu()">Contacts</a>
+               </li>
+              </ul>
+             </div>
+           </div>
+           
+      </div>
           
          </nav>
      </div>
@@ -29,7 +52,7 @@
                <div class="header__description">
                <h1>Australia's most awarded online library platform</h1>
                <h2>Find your dream book with <span class="purple">Library</span></h2>
-               <button class="btn">Browse Books</button>
+              <a href="#features"><button class="btn">Browse Books</button></a>
               </div>
                <figure class="header__img--wrapper">
                  <img src="./assets/Undraw_Books.svg" alt="">
@@ -361,7 +384,7 @@
                 </div>
 
                 <div class="footer__copyright">
-                   Copyright &copy; 2021 Library 
+                   Copyright &copy; 2025 Library 
                 </div>
                 </div>
               </div>
@@ -369,4 +392,3 @@
   
 </body>
 </html>
-
