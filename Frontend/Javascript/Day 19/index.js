@@ -1,7 +1,7 @@
 console.log("Hello, World");
 
 
-code 
+// code 
 
 const p1 = fetch("https://api.github.com/users");
 
@@ -79,6 +79,7 @@ const jsonFormat = `{
 const JsObject = JSON.parse(jsonFormat);
 
 console.log(JsObject);
+
 
 
 
