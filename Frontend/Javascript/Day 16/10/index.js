@@ -4,7 +4,7 @@ const answer= {
     q2: "West Indies",
     q3: "Sachin Tendulkar",
     q4: "264",
-    q5: "Muttiah Muralitharan",
+    q5: "Muttiah Muralitharan"
 }
 
 form.addEventListener('submit', (e) => {
@@ -25,6 +25,7 @@ form.addEventListener('submit', (e) => {
 
       form.reset();
 });
+
 
 
 
