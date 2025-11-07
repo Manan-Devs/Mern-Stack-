@@ -244,6 +244,65 @@
 // Callback Functions
 
 
+// const describePopulation = (country,population,percentageOfWorld1)=> {
+//       const percentage =  percentageOfWorld1(population);
+//       return (`${country} has ${population} people , which is about ${percentage} of the World`);
+// }
+
+// const country1 =  describePopulation("India",1450,percentageOfWorld1)
+
+// const country2 = describePopulation("USA" , 340,percentageOfWorld1)
+
+// const country3 = describePopulation("UK" , 70,percentageOfWorld1);
+
+
+// console.log(country1);
+// console.log(country2);
+// console.log(country3);
+
+
+// Arrays 
+
+const populations = [1450,347,144,70];
+
+// console.log(populations.length === 4);
+
+let percentages = [];
+
+// function percentageOfWorld1(population) {
+//       const percentageOfWorld1 = Math.round((population*100)/7900);
+//       percentages.push(percentageOfWorld1);
+// }
+
+// const country1 = (percentageOfWorld1(1450)) + "%";
+
+// const country2 = (percentageOfWorld1(340)) + "%";
+
+// const country4 = (percentageOfWorld1(144)) + "%";
+
+// const country3 = (percentageOfWorld1(70)) + "%";
+ 
+// console.log(percentages);
+
+
+const neighbours = ["China","SriLanka","Sweden"];
+
+neighbours.push("Utopia");
+
+console.log(neighbours);
+
+neighbours.pop("Utopia");
+
+console.log(neighbours);
+
+if (neighbours !== "Germany") {
+      console.log("Probably not a central European Country:D");
+}
+
+neighbours[2] = "Republic of Sweden";
+
+
+
 
 
 
