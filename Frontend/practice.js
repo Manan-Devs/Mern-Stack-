@@ -244,22 +244,15 @@
 // Callback Functions
 
 
-function describePopulation(country , population) {
-
-     const percentagePopulation = percentageOfWorld1(population);
-     return (`${country} has ${population} million people which is about ${percentagePopulation} of the world`);
-} 
-
-const country1 =  describePopulation("India",1450)
-
-const country2 = describePopulation("USA" , 340)
-
-const country3 = describePopulation("UK" , 70);
 
 
-console.log(country1);
-console.log(country2);
-console.log(country3);
+
+
+
+
+
+
+
 
 
 
