@@ -299,7 +299,7 @@ if (neighbours !== "Germany") {
       console.log("Probably not a central European Country:D");
 }
 
-neighbours[2] = "Republic of Sweden";
+
 
 
 
