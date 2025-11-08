@@ -299,6 +299,46 @@ if (neighbours !== "Germany") {
       console.log("Probably not a central European Country:D");
 }
 
+// neighbours[2] = "Republic of Sweden";
+
+
+// Objects 
+
+// const myCountry = {
+//       country:"India",
+//       capital:"New Delhi",
+//       language:"Hindi",
+//       population:"1440 million",
+//       neighbours:["China","SriLanka","Sweden"]
+// }
+
+// console.log(`${myCountry.country} has ${myCountry.population} ${myCountry.language} - speaking people , ${neighbours.length} neighbouring countries and a capital called ${myCountry.capital}`);
+
+// myCountry.population = "1442 million";
+
+// console.log(myCountry.population);
+
+// myCountry["population"] = "1442 million"
+
+// console.log(myCountry.population);
+
+
+// myCountry.describe = function () {
+//        console.log(`${this.country} has ${this.population}  ${this.language} - speaking people, ${neighbours.length} neighbouring countries and capital called ${myCountry.capital}`);
+// }
+
+// myCountry.describe();
+
+
+// myCountry.checkIsland = function () {
+//     return myCountry.isIsland = (neighbours.length === 0) ? true : false;
+// }
+
+// console.log(myCountry.checkIsland);
+
+
+
+
 
 
 
