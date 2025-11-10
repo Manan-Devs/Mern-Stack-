@@ -2,7 +2,7 @@
 // async await 
 // async function always return a promise 
 
-// async function greet() {
+// async function greet() 
 //     return "Rohit";
 
 //     // return new Promise((resolve,reject) => {
@@ -49,5 +49,6 @@ console.log("Hello, Ji Kaise ho");
 
 
 // console.log("Hello, Ji kaise ho ");
+
 
 
