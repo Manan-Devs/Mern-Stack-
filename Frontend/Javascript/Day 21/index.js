@@ -25,3 +25,16 @@ const obj2 = {
 obj2.__proto__ = obj;
 
 console.log(obj2.name);
+
+
+
+
+class Customer extends Person {
+      constructor(name,age,account,balance) {
+          super(name,age);
+          this.account = account;
+          this.balance = balance;
+      }
+}
+
+
