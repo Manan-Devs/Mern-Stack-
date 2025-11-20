@@ -6,7 +6,7 @@
         //     backgroundColor:"orange",color:"white"
         // }
 
-// 
+// }
 
 // element = {
 //      tag:"h1",
@@ -75,4 +75,5 @@ const element2 = React.createElement("h2", {className:"element",id:"second",styl
 const root = document.getElementById('root');
 root.append(element1);
 root.append(element2);
+
 
