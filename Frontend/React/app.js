@@ -1,30 +1,55 @@
 // attributes = {
 //      className:"element",
-//      id:"first"
+//      id:"first",
+        // style: {
+        //     fontSize:"30px",
+        //     backgroundColor:"orange",color:"white"
+        // }
+
 // }
 
 // element = {
 //      tag:"h1",
 //      textContent:"Hello,Coder Army",
 //      className:"element",
-//      id:"first"
+//      id:"first",
+        // style: {
+        //     fontSize:"30px",
+        //     backgroundColor:"orange",color:"white"
+        // } 
 // }
 
-function createElement(tag,attributes,children,) {
+ const React = {
+    createElement: function(tag,attributes,children,) { 
       
     const element =  document.createElement(tag);
     element.textContent = children;
 
     for (const key in attributes) {
-          element[key] = attributes[key];  
+         if (key === "style") {
+             Object.assign(element.style, attributes.style)
+         }
+         else { 
+             element[key] = attributes[key];   
+         }
+          
     }
 
     return element;
 }
+ }
+
+//  It performs all the operation of DOM 
+ const ReactDom = {
+        render:function(child,parent) {
+             parent.append(child);
+        }
+    
+ }
 
 
-const element1 = createElement("h1",{className:"element",id:"first"},"Hello,Coder Army");
-const element2 = createElement("h2", {className:"element",id:"second"},"Strike is launched");
+
+
 // create a h1 element using Js 
 
 // const element1 = document.createElement('h1');
@@ -42,6 +67,9 @@ const element2 = createElement("h2", {className:"element",id:"second"},"Strike i
 // element1.fontSize = "20px";
 // element1.style.backgroundColor = "pink";
 // element1.style.color = "green";
+
+const element1 = React.createElement("h1",{className:"element",id:"first",style:{fontSize:"30px",backgroundColor:"orange",color:"white"}},"Hello,Coder Army");
+const element2 = React.createElement("h2", {className:"element",id:"second",style:{fontSize:"30px",backgroundColor:"pink",color:"green"}},"Strike is launched");
 
 
 const root = document.getElementById('root');
