@@ -1,78 +1,22 @@
-// attributes = {
-//      className:"element",
-//      id:"first",
-        // style: {
-        //     fontSize:"30px",
-        //     backgroundColor:"orange",color:"white"
-        // }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body style="background-color:black; color:white; height:100vh;" >
 
-// }
+    <div id="root">
 
-// element = {
-//      tag:"h1",
-//      textContent:"Hello,Coder Army",
-//      className:"element",
-//      id:"first",
-        // style: {
-        //     fontSize:"30px",
-        //     backgroundColor:"orange",color:"white"
-        // } 
-// }
-
-//  custom react
- const React = {
-    createElement: function(tag,attributes,children) { 
-      
-    const element =  document.createElement(tag);
-    element.textContent = children;
-
-    for (const key in attributes) {
-         if (key === "style") {
-             Object.assign(element.style, attributes.style)
-         }
-         else { 
-             element[key] = attributes[key];   
-         }
-          
-    }
-
-    return element;
-}
- }
-
-//  It performs all the operation of DOM 
-// Custom React
- const ReactDom = {
-        render:function(child,parent) {
-             parent.append(child);
-        }
-    
- }
-
-   
+    </div>
 
 
-// create a h1 element using Js 
-
-// const element1 = document.createElement('h1');
-// element1.textContent = "Hello, Coder Army";
-// element1.className = 'element';
-// element1.id = 'first';
-// element1.fontSize = "30px";
-// element1.style.backgroundColor = "orange";
-// element1.style.color = "white";
-
-// const element2 = document.createElement('h2');
-// element1.textContent = "Strike is Launched";
-// element1.className = 'element';
-// element1.id = 'second';
-// element1.fontSize = "20px";
-// element1.style.backgroundColor = "pink";
-// element1.style.color = "green";
-
-const element1 = React.createElement("h1",{className:"element",id:"first",style:{fontSize:"30px",backgroundColor:"orange",color:"white"}},"Hello,Coder Army");
-const element2 = React.createElement("h2", {className:"element",id:"second",style:{fontSize:"30px",backgroundColor:"pink",color:"green"}},"Strike is launched");
+  
+</body>
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
 
 
-const root = document.getElementById('root');
-React.render(element1,root);
+<script src="./app.js"></script>
+</html>
