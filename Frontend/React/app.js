@@ -19,8 +19,9 @@
         // } 
 // }
 
+//  custom react
  const React = {
-    createElement: function(tag,attributes,children,) { 
+    createElement: function(tag,attributes,children) { 
       
     const element =  document.createElement(tag);
     element.textContent = children;
@@ -40,6 +41,7 @@
  }
 
 //  It performs all the operation of DOM 
+// Custom React
  const ReactDom = {
         render:function(child,parent) {
              parent.append(child);
@@ -47,7 +49,7 @@
     
  }
 
-
+   
 
 
 // create a h1 element using Js 
@@ -73,7 +75,4 @@ const element2 = React.createElement("h2", {className:"element",id:"second",styl
 
 
 const root = document.getElementById('root');
-root.append(element1);
-root.append(element2);
-
-
+React.render(element1,root);
