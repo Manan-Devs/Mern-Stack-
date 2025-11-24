@@ -2,13 +2,7 @@
 //      className:"element",
 //      id:"first",
         // style: {
-        //     fontSize:"30px",
-        //     backgroundColor:"orange",color:"white"
-        // }
-
-// }
-
-// element = {
+        //  
 //      tag:"h1",
 //      textContent:"Hello,Coder Army",
 //      className:"element",
@@ -112,4 +106,5 @@ const element2 = React.createElement("h2", {className:"element",id:"second",styl
 
 const root = document.getElementById('root');
 // React.render(element1,root);
+
 
